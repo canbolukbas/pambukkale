@@ -1,0 +1,1 @@
+Hey! This is my homework. From me, to me. I'd like to practice E2E product creation and learn along the way the little things that I take for granted in a well-setup projects. Hoping that I'll be finishing it up and not abandon :fingers-crossed:
