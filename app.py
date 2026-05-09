@@ -17,4 +17,12 @@ app = Flask(__name__)
 
 @app.get("/")
 def list_trips():
-    return {"trips": []}
+    trips = [
+        {
+            "id": uuid.uuid4(),
+            "name": "",
+            "departure": datetime.now(),
+            "price": 0,
+        }
+    ]
+    return {"trips": [Trip.model_validate(trip).model_dump() for trip in trips]}
