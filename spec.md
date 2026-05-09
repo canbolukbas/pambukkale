@@ -6,8 +6,6 @@
 - There are 2 busses available.
 - Both of them have a capacity of 31 passengers.
 - Each bus has one driver and at most 30 passengers.
-- First row is 1A, 1B and 1C.
-- Seats start from 1A and go up to 10C, in exact same order.
 - Users can book tickets online.
 - Users have to be logged in to book tickets. Guests can register for an account.
 - Guests can see the list of available trips and seats before booking.
